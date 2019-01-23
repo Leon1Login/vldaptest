@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "vldaptest": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\repos\\OneLogin\\vldaptest\\vldaptest\\tests.json"
+    }
+  }
+}

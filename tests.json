@@ -1,0 +1,31 @@
+{
+  "ExpectedPath": "/Users/leonpozen/Projects/vldaptest/Expected",
+  "ActualPath": "/Users/leonpozen/Projects/vldaptest/Actual",
+  "Tests": [
+    {
+      "Id": "1",
+      "Command": "ls ~",
+      "FileName": "1.txt"
+    },
+    {
+      "Id": "2",
+      "Command": "echo Hello World",
+      "FileName": "2.txt"
+    },
+    {
+      "Id": "3",
+      "Command": "echo Hello World",
+      "FileName": "3.txt"
+    },
+    {
+      "Id": "4",
+      "Command": "echo Hello World",
+      "FileName": "4.txt"
+    },
+    {
+      "Id": "5",
+      "Command": "echo Hello World",
+      "FileName": "5.txt"
+    }
+  ]
+}

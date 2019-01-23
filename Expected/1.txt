@@ -1,0 +1,18 @@
+Applications
+Desktop
+Documents
+Downloads
+Google Drive File Stream
+Hello
+Library
+Movies
+Music
+Pictures
+Projects
+Public
+Ruby
+VirtualBox VMs
+docker-compose.yml
+repos
+shakespeare
+temp
