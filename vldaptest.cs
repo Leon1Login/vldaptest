@@ -9,7 +9,7 @@ namespace vldaptest
     {
         static void Main(string[] args)
         {
-            if (!(args.Length == 1 && args[0].StartsWith('/')))
+            if (args.Length != 1 )
             {
                 Console.WriteLine("Usage: vldaptest fullFilePath");
                 return;
@@ -36,7 +36,9 @@ namespace vldaptest
                 var actualResultPath = Path.Combine(actualPath, test.FileName);
 
                 // load expected result
-                var expectedResult = File.ReadAllText(expectedResultPath);
+                var expectedResult = File.Exists(expectedResultPath)
+                    ? File.ReadAllText(expectedResultPath) 
+                    : string.Empty;
 
                 // Run command and capture output to file
                 var actualResult = test.Command.Execute();
